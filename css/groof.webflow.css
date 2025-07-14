@@ -1679,6 +1679,18 @@ h1 {
   overflow: visible;
 }
 
+.hero-paragraph-copy {
+  color: #ffffff80;
+  text-align: center;
+  width: 60ch;
+  margin-bottom: 1.3rem;
+  padding-top: 0;
+  padding-bottom: .5rem;
+  font-family: Recursive, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 @media screen and (min-width: 1920px) {
   .proj-info-wrap-l {
     justify-content: center;
@@ -1915,7 +1927,17 @@ h1 {
   }
 
   .hero-section {
+    background-image: linear-gradient(#fff0, #00000080 20%), url('../images/Groof.jpeg');
+    background-position: 0 0, 50%;
+    background-size: auto, cover;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
     margin-top: 4.9rem;
+    padding-top: 0;
+    padding-left: 22px;
+    padding-right: 22px;
   }
 
   .about-wrap {
@@ -2257,12 +2279,19 @@ h1 {
   }
 
   .heading-11 {
+    color: #f58e5b;
     text-align: center;
-    font-size: 2.4rem;
+    width: 100%;
+    font-size: 1.8rem;
   }
 
   .code-embed-5-copy {
     height: 100%;
+  }
+
+  .hero-paragraph-copy {
+    color: #ffffffd9;
+    width: auto;
   }
 }
 
